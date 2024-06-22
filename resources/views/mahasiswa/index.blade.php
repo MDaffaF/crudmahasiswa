@@ -27,7 +27,7 @@
     </tr>
     @foreach ($mahasiswa as $mhs)
     <tr>
-        <td>{{ $loop->iteration }}</td> <!-- Menggunakan loop index bawaan Laravel -->
+        <td>{{ $loop->iteration }}</td> 
         <td>{{ $mhs->nama }}</td>
         <td>{{ $mhs->kelas }}</td>
         <td>
